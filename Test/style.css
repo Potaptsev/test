@@ -1,0 +1,78 @@
+body
+{
+font-family: sans-serif;
+background-color: lightgoldenrodyellow;
+
+
+}
+dd
+{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+dt
+{
+font-weight: bold;
+color: green;
+}
+ul
+{
+    list-style-position: inside;
+    list-style: none;
+
+}
+li::before
+{
+    color: rgb(65, 223, 149);
+    content: "- ";
+}
+.summer a, .autumn a, .spring a, .winter a
+{
+    color: rgb(65, 223, 149);
+    cursor: pointer;
+}
+.spring a:visited /*посещенная ссылка*/
+{
+    cursor: pointer;
+}
+
+.summer a:hover, .autumn a:hover, .spring a:hover, .winter a:hover /*при наведении*/
+{
+    color:rgb(9, 0, 128);
+    cursor: pointer;
+    /*list-style-image: url("summer.png");*/
+}
+
+.winter a:focus /*когда фокус на ссылке*/
+{
+    color: rgb(87, 198, 231);
+}
+
+img 
+{
+    width: 50%;
+}
+blockquote
+{
+    background-image: url(bg.jpg); 
+    background-repeat: space; 
+    margin-left: 0; 
+    padding-left: 60px;
+}
+
+.wrap
+{
+
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/*.autumn:hover
+{
+    cursor: pointer;
+    color:rgb(255, 153, 0);
+}*/

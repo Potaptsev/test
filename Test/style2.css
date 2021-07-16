@@ -1,0 +1,56 @@
+/* img{
+    width: 30%;
+}
+.flb{
+    display: flex;
+    background-color: wheat;
+    height: 100vh;
+
+}
+.pic1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.pic2{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.pic3{
+    position: relative;
+    margin: auto;
+} */
+/* *
+{
+    margin: 0;
+    padding: 0;
+} 
+.flb{
+    display: flex;
+    height: 100vh;
+    background-color: cadetblue;
+} 
+
+.kv {width: 10vw; height: 10vw;  position: absolute; left: 0px; top: 0px; background-color: tomato;}
+.kv2 {width: 10vw; height: 10vw; position: absolute; right: 0px; top: 0px; background-color: tomato;} 
+.kv3 {width: 10vw; height: 10vw;  position: absolute; left: 0px; bottom: 0px; background-color: tomato;}
+.kv4 {width: 10vw; height: 10vw; position: absolute; right: 0px; bottom: 0px; background-color: tomato;} 
+.kv5 {margin: auto; width: 92%; height: 85%; position: relative; background-color: rgb(71, 255, 154);}  */
+
+li
+{
+    background-color: yellowgreen;
+    margin: 5px;
+}
+li:first-child
+{
+    background-color: yellow;
+}
+
+li:nth-child(odd) /*нечетный элемент закрашивается*/
+{
+    background-color: thistle;
+}
